@@ -12,6 +12,7 @@
 .mywork-container {
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -21,5 +22,11 @@
         margin: 0;
         text-align: center;
         width: 100%;
+    }
+
+    .mywork-container{
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
     }
 }
