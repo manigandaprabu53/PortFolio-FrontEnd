@@ -1,0 +1,17 @@
+.mywork-wrapper {
+    padding: 20px;
+    margin-left: 7rem;
+    min-height: 75vh;
+}
+
+.mywork-wrapper > h2 {
+    font-size: 2.4rem;
+    text-decoration: underline;
+}
+
+.mywork-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}

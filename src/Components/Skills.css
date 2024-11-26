@@ -1,0 +1,21 @@
+img{
+    width: 100px;
+}
+
+.skill-content {
+    margin: 5rem 2rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-wrapper {
+    margin: 4.5rem 9rem;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    min-height: 50vh;
+    margin-bottom: 30px;
+}

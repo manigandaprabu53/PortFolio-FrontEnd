@@ -1,0 +1,47 @@
+.footer-wrapper {
+    background-color: rgb(15, 9, 9);
+    margin-bottom: 0;
+    padding: 2rem;
+    color: aliceblue;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-size: medium;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-links a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p > a{
+    color: pink;
+}
+
+.git{
+    background-color: white;
+    border: none    ;
+    border-radius: 7px;
+}
+
+.footer-container section{
+    /* display: flex;
+    flex-basis: 1; */
+    max-width: 50%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}

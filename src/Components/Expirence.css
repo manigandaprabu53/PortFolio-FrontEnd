@@ -1,0 +1,20 @@
+.exp-wrapper {
+    padding: 20px;
+    max-width: 100vw;
+    min-height: 50vh;
+    margin-left: 8rem;
+    margin-bottom: 30px;
+}
+
+.exp-wrapper > h2{
+    font-family: poppins;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.content{
+    background-color: rgb(101, 192, 162);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 75vw;
+}
