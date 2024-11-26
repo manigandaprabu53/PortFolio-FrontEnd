@@ -77,7 +77,6 @@ function DataForm() {
           let reader = new FileReader();
           reader.readAsDataURL(selectedFile);
           reader.onload = () =>{
-          setThumbnail(reader.result)
           setProject({...project, thumbnail: reader.result})
           }
           console.log(thumbnail)

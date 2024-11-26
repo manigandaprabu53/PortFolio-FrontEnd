@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Expirence.css'
+import axios from 'axios'
+
 function Expirence() {
 
   const [data, setData] = useState([
@@ -8,6 +10,24 @@ function Expirence() {
       description: "Experienced Linux System Administrator with 3+ years of hands-on expertise in managing and optimizing Linux servers. Skilled in security hardening, troubleshooting, and system monitoring."
     }
   ])
+
+  const getData = async ()=>{
+    try {
+      let res = await axios.get("http://localhost:8000/experience/getExperience/");
+      if(res.status == 200){
+        console.log(res.data.data)
+        setData(res.data.data)
+      }else{
+        console.log(res.data.message)
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  useEffect(()=>{
+    getData();
+  }, [])
 
   return <>
 

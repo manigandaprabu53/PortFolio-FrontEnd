@@ -4,8 +4,6 @@ import DataForm from './Forms/DataForm'
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
-
-  // let navigate = useNavigate();
   
   return <>
 
@@ -16,7 +14,6 @@ function App() {
         <Route path='*' element={<Home/>}/>
       </Routes>
     </BrowserRouter>
-
   </>
 }
 

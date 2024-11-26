@@ -5,21 +5,20 @@ import Expirence from './Expirence.jsx'
 import Skills from './Skills.jsx'
 import MyWorks from './MyWorks.jsx'
 import Footer from './Footer.jsx'
-import { useLocation } from 'react-router-dom'
-
+import DataForm from '../Forms/DataForm.jsx'
+import { useLocation} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 function Home() {
     const location = useLocation();
     
     useEffect(()=>{
-        console.log(location)
         if(location.hash){
-            console.log(location)
             const element = document.getElementById(location.hash.replace('#', ''));
             if(element){
                 element.scrollIntoView({behavior: 'smooth'});
             }
         }
-    }, [location])
+    }, [location], [])
   return (
     <div>
         <Navbar/>

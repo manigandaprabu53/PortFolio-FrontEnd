@@ -11,7 +11,7 @@ function MediaCard({data}) {
     <Card sx={{ maxWidth: 400 }}>
       <CardMedia
         sx={{ height: 200 }}
-        image={data.img}
+        image={data.thumbnail}
         title={data.title}
       />
       <CardContent>
