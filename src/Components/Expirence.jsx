@@ -13,7 +13,7 @@ function Expirence() {
 
   const getData = async ()=>{
     try {
-      let res = await axios.get("http://localhost:8000/experience/getExperience/");
+      let res = await axios.get("https://portfolio-backend-inrj.onrender.com/experience/getExperience/");
       if(res.status == 200){
         console.log(res.data.data)
         setData(res.data.data)

@@ -16,7 +16,7 @@ function Skills() {
 
   const getData = async ()=>{
     try {
-      let res = await axios.get("http://localhost:8000/skills/getSkills/");
+      let res = await axios.get("https://portfolio-backend-inrj.onrender.com/skills/getSkills/");
       if(res.status == 200){
         setData(res.data.data[0].icons)
       }else{

@@ -19,3 +19,16 @@ img{
     min-height: 50vh;
     margin-bottom: 30px;
 }
+
+@media (max-width: 650px){
+    .skill-wrapper{
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .skill-content{
+        margin: 5rem 0;
+        width: 100%;
+    }
+}

@@ -191,7 +191,7 @@ function DataForm() {
       const handleSubmit = async (e) => {
         e.preventDefault();
         if (validate()) {
-          let res = await axios.post('http://localhost:8000/data/aboutMe/', formData)
+          let res = await axios.post('https://portfolio-backend-inrj.onrender.com/data/aboutMe/', formData)
           if(res.status == 201){
             console.log(res.data)
           }
@@ -201,7 +201,7 @@ function DataForm() {
 
       const handleProjectSubmit = async (e)=>{
         e.preventDefault();
-        let res = await axios.post("http://localhost:8000/projects/addProject/", project);
+        let res = await axios.post("https://portfolio-backend-inrj.onrender.com/projects/addProject/", project);
         if(res.status == 201){
           console.log(res.data);
         }
@@ -211,7 +211,7 @@ function DataForm() {
       const handleSubmitExpierence = async (e) => {
         e.preventDefault();
         if (validateExpierence()) {
-          let res = await axios.post("http://localhost:8000/experience/addExperience/", expierence);
+          let res = await axios.post("https://portfolio-backend-inrj.onrender.com/experience/addExperience/", expierence);
           if(res.status == 201){
             console.log(res.data.data)
           }
@@ -223,7 +223,7 @@ function DataForm() {
         e.preventDefault();
         let SkillIcon = {icons: skillIcon};
         console.log(SkillIcon)
-        let res = await axios.post("http://localhost:8000/skills/addSkills/", SkillIcon)
+        let res = await axios.post("https://portfolio-backend-inrj.onrender.com/skills/addSkills/", SkillIcon)
         if(res.status == 201){
           console.log(res.data)
         }

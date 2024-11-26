@@ -19,3 +19,18 @@
     max-width: 75vw;
     margin-bottom: 2rem;
 }
+
+@media (max-width: 650px){
+    .content {
+        min-width: fit-content;
+    }
+
+    .exp-wrapper > h2{
+        text-align: center;
+    }
+
+    .exp-wrapper{
+        margin: 0;
+        padding: 20px;
+    }
+}

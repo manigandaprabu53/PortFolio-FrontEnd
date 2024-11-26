@@ -12,7 +12,7 @@ function AboutMe() {
 
   const getData = async ()=>{
     try {
-      let res = await axios.get("http://localhost:8000/data/getAboutMe");
+      let res = await axios.get("https://portfolio-backend-inrj.onrender.com/data/getAboutMe");
       if(res.status == 200){
         console.log(res.data.data)
         setData(res.data.data)
@@ -27,8 +27,7 @@ function AboutMe() {
     getData();
   }, [])
 
-  return <>
-    <div className="container" id='aboutME'>
+  return <div className="container" id='aboutME'>
         {/* <img src={img1} alt=""  className='photo'/>
         <div className="about">
             <h2>Manigandaprabu Vedachelam</h2>
@@ -53,7 +52,6 @@ function AboutMe() {
           })
         }
     </div>
-  </>
 }
 
 export default AboutMe

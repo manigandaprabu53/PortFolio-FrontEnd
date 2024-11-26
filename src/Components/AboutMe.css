@@ -55,3 +55,27 @@ p{
     text-decoration: none;
     color: gray;
 }
+
+@media (max-width: 650px){
+    .container{
+        flex-direction: column;
+    }
+
+    .about{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+    .about > h2{
+        font-size: 2rem;
+    }
+
+    .about > h3{
+        font-size: 1.5rem;
+    }
+}

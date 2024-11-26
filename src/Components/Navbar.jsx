@@ -27,7 +27,6 @@ function Navbar() {
             <li><Link to="#skills">Skills</Link></li>
             <li><Link to="#myworks">My Works</Link></li>
             <li><Link to="#contact">Contact</Link></li>
-            <li><Link to='/dataForm'>Form</Link></li>
           </ul>
         </div>
     </nav>
