@@ -23,9 +23,9 @@ function Navbar() {
         <div className= "navbar-links">
           <ul>
             <li><Link to="#about">About Me</Link></li>
-            <li><Link to="#expirence">Expierence</Link></li>
+            <li><Link to="#expirence">Experience</Link></li>
             <li><Link to="#skills">Skills</Link></li>
-            <li><Link to="#myworks">My Works</Link></li>
+            <li><Link to="#myworks">Projects</Link></li>
             <li><Link to="#contact">Contact</Link></li>
           </ul>
         </div>

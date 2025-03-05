@@ -23,7 +23,8 @@ function MediaCard({data}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" href={data.github} target='_blank'>GitHub</Button>
+        <Button size="small" href={data.githubFrontEnd} target='_blank'>GitHub Frontend</Button>
+        <Button size="small" href={data.githubBackend} target='_blank'>GitHub Backend</Button>
         <Button size="small" href={data.livePage} target='_blank'>Live Page</Button>
       </CardActions>
     </Card> 
