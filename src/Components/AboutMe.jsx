@@ -10,22 +10,22 @@ function AboutMe() {
 
   const [data, setData] = useState([]);
 
-  const getData = async ()=>{
-    try {
-      let res = await axios.get("https://portfolio-backend-inrj.onrender.com/data/getAboutMe");
-      if(res.status == 200){
-        console.log(res.data.data)
-        setData(res.data.data)
-      }
-    } catch (error) {
+  // const getData = async ()=>{
+  //   try {
+  //     let res = await axios.get("https://portfolio-backend-inrj.onrender.com/data/getAboutMe");
+  //     if(res.status == 200){
+  //       console.log(res.data.data)
+  //       setData(res.data.data)
+  //     }
+  //   } catch (error) {
       
-    }
-  }
+  //   }
+  // }
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    getData();
-  }, [])
+  //   getData();
+  // }, [])
 
   return <div className="container" id='aboutME'>
         <img src={profile} alt=""  className='photo'/>

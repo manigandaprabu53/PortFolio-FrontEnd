@@ -23,7 +23,7 @@ function Home() {
     <div>
         <Navbar/>
         <div id="about"><AboutMe/></div>
-        <div id='expirence'><Expirence/></div>
+        {/* <div id='expirence'><Expirence/></div> */}
         <div id='skills'><Skills/></div>
         <div id='myworks'><MyWorks/></div>
         <div id='contact'><Footer/></div>
