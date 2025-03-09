@@ -23,7 +23,7 @@ function MyWorks() {
         description: "In this blog app anyone can register and start to read others blog and we can also write a blog",
         githubFrontEnd: "https://github.com/manigandaprabu53/Blog-Frontend",
         githubBackend: "https://github.com/manigandaprabu53/Blog-Backend",
-        livePage: "https://myblinkitapp.netlify.app/",
+        livePage: "https://blogerschannel.netlify.app/",
         thumbnail: blogger
       },
 
