@@ -20,6 +20,12 @@ function MediaCard({data}) {
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           {data.description}
+          <br /><br />
+          Demo Account: 
+          <br />
+          Id: testuser@gmail.com
+          <br />
+          Password: Testpassword@123
         </Typography>
       </CardContent>
       <CardActions>
